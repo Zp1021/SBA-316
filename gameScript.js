@@ -47,6 +47,8 @@ body.appendChild(resetButton)
 
 // Function to reset the game
 function gameReset(){
+    window.prompt('Write CONFIRM to reset the board')
+    window.open('game.html')
     console.log('the game has reset')
 }
 
