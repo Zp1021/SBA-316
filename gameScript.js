@@ -23,14 +23,14 @@ for (let move of game) {
 }
 body.appendChild(gameBoard);
 
+// Starts with player as X pattern and
 // Tracks the clicks from user and switches between X and O patterns
 let currentPlayer = 'X'
 function gameMove(event) {
-    
     if(event.target.classList.contains('box') && event.target.textContent === '') {
         event.target.textContent = currentPlayer;
+    }
 
-    } 
     if(currentPlayer === 'X'){
         currentPlayer = 'O';
         event.target.style.backgroundColor = 'purple'
@@ -41,19 +41,14 @@ function gameMove(event) {
 }
 gameBoard.addEventListener('click', gameMove);
 
-// const winCondition = [
-//     // Winning through rows
-//     [1,2,3],[4,5,6],[7,8,9],
-//     // Winning through columns
-//     [1,4,7],[2,5,8],[3,6,9],
-//     // Winning through diagonals
-//     [1,5,9],[3,5,7]
-// ]
+// Retrieving button by its ID and adding it to the DOM
+let resetButton = document.getElementById('reset')
+body.appendChild(resetButton)
 
+// Function to reset the game
+function gameReset(){
+    console.log('the game has reset')
+}
 
-
-
-
-// User enters what they pattern they want to start as
-// variable that keeps track of current player
-// let player = x once turn happens the switch to player being O
+// Event listener to add functionality to reset button
+resetButton.addEventListener('click', gameReset)
