@@ -1,7 +1,25 @@
+body{
+    margin: 105px 612px;
+    text-align: center;
+    box-shadow: -10px 10px 25px 15px black;
+    background-color: rgb(109, 165, 244); 
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
 .gameBoard {
     display: flex;
     width: 600px;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 .box {
     border: 1px solid black;
@@ -11,7 +29,7 @@
     font-size: 40px;
 }
 button{
-    width: 150px;
+    width: 450px;
     height: 50px;
     background-color: red ;
     font-weight: bolder;
