@@ -11,13 +11,16 @@
         <h1>Want to play a game?</h1>
         <h2>(hit the no button first for funny haha's)</h2>
         <form>
-            <input type="button" id='yes' onclick="yesGame()" value="yes" required> YES
+            <input type="button" id='yes' onclick="yesGame()" value="yes">
             <br>
-            <input type="button" id='no' onclick="noGame()" value="no"> NO
+            <input type="button" id='no' onclick="noGame()" value="no">
             <br>
             <input type="submit" value="continue">
             <br>
-            <input type="checkbox" id="terms" > I agree to the terms and conditions
+            <input type="checkbox" id="terms"> 
+            <span id="termsText">
+                I agree to the terms and conditions
+            </span>
         </form>
     </div>
     <p id='message'></p>

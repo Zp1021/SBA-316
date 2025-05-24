@@ -5,7 +5,29 @@ body {
     background-color: rgb(161, 200, 255); 
     padding-bottom: 2%;  
 }
-
+input{
+    width: 75px;
+    height: 20px;
+    font-weight: bolder;
+}
+#yes{
+    width: 50px;
+    height: 20px;
+    font-weight: bolder;
+}
+#no{
+    width: 50px;
+    height: 20px;
+    font-weight: bolder;
+}
+#termsText{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#message{
+    font-size: 20px;
+    font-weight: bolder;
+}
 .confirmation{
     display: flexbox;
     justify-content: space-around;
