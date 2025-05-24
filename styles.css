@@ -1,0 +1,12 @@
+body {
+    margin: 105px 500px;
+    text-align: center;
+    box-shadow: -10px 10px 25px 15px black;
+    background-color: rgb(161, 200, 255); 
+    padding-bottom: 2%;  
+}
+
+.confirmation{
+    display: flexbox;
+    justify-content: space-around;
+}
