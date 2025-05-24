@@ -11,6 +11,8 @@ The grid is created using a for loop that iterates through an array of empty str
 
 There is an event listener that tracks player moves by starting with pattern X and then moving on to pattern O when interacting with the board
 
-There is a buttton called reset that allows users to open up a new page to effectively reset the gameboard and start again
+There is a buttton called reset that allows users to open up a new page to effectively resetting the gameboard and start again however this functionality does get blocked as it is a pop-up. 
+
+NOTE: The above does handle it either refresh the page or disable pop-up block to allow for the BOM functions to carry out task
 
 at the time of writing this the logic for determining the winner is still under construction
