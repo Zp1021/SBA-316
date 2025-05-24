@@ -19,7 +19,7 @@ for (let move of game) {
     let box = document.createElement('div');
     box.textContent = move;
     box.classList.add('box');
-    gameBoard.appendChild(box) ; 
+    gameBoard.appendChild(box); 
 }
 body.appendChild(gameBoard);
 
